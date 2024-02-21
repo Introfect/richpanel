@@ -1,12 +1,7 @@
 import FacebookProvider from "next-auth/providers/facebook";
 9
 export default NextAuth({
-    pages: {
-        signIn: '/connect-fb',
-      },
-      session:{
-        stratrgy:'jwt'
-      },
+
     providers: [
         FacebookProvider({
           clientId: process.env.FACEBOOK_CLIENT_ID,

@@ -12,7 +12,7 @@ const page = () => {
     <div className='bg-blue-800 h-screen flex items-center justify-center'>
         <FacebookLogin/>
         <ShareButtonExample/>
-         <Button onClick={()=>signIn} >facebook</Button> 
+         <Button onClick={signIn} >facebook</Button> 
     </div>
   )
 }
