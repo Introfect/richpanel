@@ -1,8 +1,8 @@
 
-import { CardHeader, CardContent, Card } from "../../card"
-import { Label } from "../../ui/label"
-import { Input } from "../../ui/input"
-import { Button } from "../../ui/button"
+import { CardHeader, CardContent, Card } from "../ui/card"
+import { Label } from "../ui/label"
+import { Input } from "../ui/input"
+import { Button } from "../ui/button"
 
 export function SignIn() {
     return (
