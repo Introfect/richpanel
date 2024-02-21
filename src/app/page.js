@@ -1,5 +1,4 @@
 import { SignUp } from "@/components/component/sign-up";
-import Image from "next/image";
 
 export default function Home() {
   return (
